@@ -1,0 +1,123 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid rgb(191, 188, 23);
+  background-color: rgba(32, 218, 79, 0.422);
+}
+
+.logo {
+  width: 100px;
+  border-radius: 60px;
+  border-color: blanchedalmond;
+  padding: 10px;
+}
+
+.nav-items {
+  padding: 0px 20px;
+}
+
+.nav-items > ul {
+  font-size: 24px;
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-items > ul > li {
+  padding: 10px;
+  margin: 10px;
+}
+
+.res-card {
+  border: 3px solid gray;
+  width: 220px;
+  margin: 5px;
+  height: 400px;
+  padding: 40px;
+  justify-content: space-evenly;
+}
+.res-card:hover {
+  background-color: rgba(46, 21, 233, 0.197);
+}
+.res-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.resImg {
+  width: 100%;
+}
+
+.filter-btn {
+  cursor: pointer;
+  margin-top: 28px;
+  margin-left: 50px;
+  height: 30px;
+}
+
+.shimmer-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  justify-content: space-between;
+  justify-content: space-around;
+}
+
+.shimmer-card {
+  border: 3px solid rgb(236, 227, 227);
+  width: 220px;
+  margin: 5px;
+  height: 400px;
+  padding: 40px;
+  justify-content: space-evenly;
+}
+
+.login {
+  padding: 0 20px;
+  cursor: pointer;
+}
+
+.filter {
+  display: flex;
+}
+.search-box {
+  margin: 10px;
+  cursor: pointer;
+  padding: 10px;
+  width: 500px;
+  height: 20px;
+}
+.search {
+  margin: 10px;
+  cursor: pointer;
+
+  margin-left: 10px;
+}
+.resImgid {
+  border: 3px solid rgb(236, 227, 227);
+  width: 220px;
+  height: 200px;
+  padding: 40px;
+  justify-content: space-evenly;
+  margin: 0 10px; /* Add horizontal spacing */
+  display: flex;
+  flex-direction: row; /* Arrange items horizontally */
+  align-items: center; /* Align items vertically */
+  border: solid rgb(223, 212, 212);
+  padding: 20px;
+  margin-left: 10px;
+  background-color: antiquewhite;
+}
+
+.menuall {
+  display: flex;
+  flex-direction: row; /* Arrange items horizontally */
+  gap: 20px; /* Add spacing between items */
+  padding: 30px;
+  justify-content: center; /* Center items in the container */
+  flex-wrap: wrap;
+  list-style-type: none;
+  font-style: bold;
+}
